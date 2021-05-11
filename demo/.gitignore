@@ -18,7 +18,6 @@ bin/
 !**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
-idea
 *.iws
 *.iml
 *.ipr
@@ -35,3 +34,11 @@ out/
 
 ### VS Code ###
 .vscode/
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../:\Users\femte\OneDrive\Documentos\GitHub\Todolist\ToDoList\demo\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

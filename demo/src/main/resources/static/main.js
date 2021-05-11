@@ -1,16 +1,14 @@
-const tasksList= document.querySelector("#task-selection");
+const tasksList= document.querySelector("#tasksList);
 
 // 3)
 function showTasks(tasks) {
     tasks.forEach(task => {
-        const element = `<div class="tasks">
-            <p class="list">(${task.title})</p>
+        const element = `<div class="todo">
+            <p class="list">(${task.todo})</p>
         </div>`;
         tasksList.insertAdjacentHTML("beforeend", element)
     })
 }
-
-
 // 2)
 let loadTasks = () => {
     fetch("/tasks")

@@ -11,7 +11,7 @@ import java.util.List;
 
 public class TaskController {
     private List<Task> tasks;
-    public TaskController() {
+    public Tasks(String title) {
         tasks = List.of(
                 new Task ("Water the plants"),
                 new Task( "Do some Codeacademy exercises"),
